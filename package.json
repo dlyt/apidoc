@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "main": "app.js",
+  "apidoc": {
+    "title": "API文档",
+    "url": "localhost:3000"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "doc": "apidoc -i app/api/controllers -o ./doc"
+  },
+  "author": "NB",
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
